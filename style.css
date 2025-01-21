@@ -129,4 +129,33 @@ body {
     font-size: 14px;
     color: gray;
   }
+
+/* Ajuste para mobile */
+@media (max-width: 768px) {
+  #input-participante {
+    width: 90%; /* Ocupa 90% da largura da tela */
+    margin: 0 auto; /* Centraliza o input */
+    display: block;
+  }
+
+  .container {
+    padding: 1rem; /* Diminui o padding geral no mobile */
+  }
+
+  button {
+    width: 100%; /* Botões ocupam largura total */
+    margin-top: 0.5rem; /* Adiciona espaçamento entre eles */
+  }
+
+  .credits {
+    font-size: 0.9rem; /* Ajusta o tamanho do texto para caber */
+    text-align: center; /* Centraliza o texto */
+  }
+
+  img {
+    width: 100%; /* Imagem ocupa largura total */
+    height: auto; /* Mantém proporção */
+  }
+}
+
   
