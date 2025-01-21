@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sorteador de Funções</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Sorteador de <span class="highlight">Funções</span></h1>
+    <p><strong>Acidione os participantes e atribua funções aleatórias</strong></p>
+    <input id="input-participante" type="text" placeholder="Digite o nome do participante" />
+    <div class="buttons">
+      <button class="button add" onclick="adicionarParticipante()">Adicionar</button>
+      <button class="button sort" onclick="sortearFuncoes()">Sortear</button>
+      <button class="button reset" onclick="reiniciar()">Reiniciar</button>
+    </div>
+    <div>
+      <h2>Participantes</h2>
+      <ul id="lista-participantes"></ul>
+    </div>
+    <div>
+      <h2>Funções Atribuídas</h2>
+      <ul id="lista-funcoes"></ul>
+    </div>
+    <div class="image-container">
+      <img src="layoutSesi.jpg" alt="Inscrições abertas SESI" />
+    </div>
+    <footer>
+      <p>Feito por Clalbo - Pós-graduando em Educação Matemática - Sesi-SP - Sorocaba-SP</p>
+    </footer>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
