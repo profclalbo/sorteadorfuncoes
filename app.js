@@ -65,7 +65,7 @@ function sortearFuncoes() {
     resultado.push(
       `<li class="reporter-highlight">${funcoes[3]}: ${sorteio[1]}</li>` // Repórter com classe
     );
-    resultado.push(`${funcoes[4]}: ${sorteio[2]}`); // Controlador do Tempo
+    resultado.push(`${funcoes[1]}: ${sorteio[2]}`); // Harmonizador
   } else {
     // Distribui funções normalmente para 5 ou mais participantes
     funcoes.forEach((funcao, index) => {
