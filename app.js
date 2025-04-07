@@ -60,7 +60,7 @@ function sortearFuncoes() {
     const acumulador = sorteio.shift(); // Remove o primeiro participante
 
     // Adiciona funções com a lógica específica
-    resultado.push(`${funcoes[0]} e ${funcoes[1]}: ${acumulador}`); // Monitor e Harmonizador
+    resultado.push(`${funcoes[0]} e ${funcoes[4]}: ${acumulador}`); // Monitor e Controlador do tempo
     resultado.push(`${funcoes[2]}: ${sorteio[0]}`); // Facilitador
     resultado.push(
       `<li class="reporter-highlight">${funcoes[3]}: ${sorteio[1]}</li>` // Repórter com classe
